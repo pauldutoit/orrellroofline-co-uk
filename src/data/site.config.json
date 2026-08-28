@@ -28,10 +28,10 @@
     { "value": "10yr", "label": "Typical guarantee" }
   ],
   "reassurance": [
-    { "title": "Genuinely independent", "text": "We're not tied to any installer. We don't own a roofline brand, we don't push one product over another - our only interest is matching you with a good local job." },
-    { "title": "Vetted network only", "text": "Every installer is checked for Trading Standards / TrustMark registration where applicable, public liability insurance and independent reviews before they see a single lead." },
-    { "title": "Insurance-backed guarantees", "text": "All matched quotes include an insurance-backed 10-year guarantee on labour and materials - covered even if the installer stops trading." },
-    { "title": "No cold calls, no data resale", "text": "Your details go to the 2-3 installers we match you with, once. We never share, sell or reuse them beyond that quote." }
+    { "icon": "scales", "title": "Genuinely independent", "text": "We're not tied to any installer. We don't own a roofline brand, we don't push one product over another - our only interest is matching you with a good local job." },
+    { "icon": "shield", "title": "Vetted network only", "text": "Every installer is checked for Trading Standards / TrustMark registration where applicable, public liability insurance and independent reviews before they see a single lead." },
+    { "icon": "umbrella", "title": "Insurance-backed guarantees", "text": "All matched quotes include an insurance-backed 10-year guarantee on labour and materials - covered even if the installer stops trading." },
+    { "icon": "lock", "title": "No cold calls, no data resale", "text": "Your details go to the 2-3 installers we match you with, once. We never share, sell or reuse them beyond that quote." }
   ],
   "howItWorks": [
     { "title": "Tell us about your roofline job", "description": "Share a few details about your fascia, soffit, guttering or roof works." },
