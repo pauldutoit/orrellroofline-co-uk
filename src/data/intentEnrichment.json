@@ -1,17 +1,73 @@
 {
-  "_note": "Per-service enrichment used on /services/{intent}/ hubs. Keyed by intent slug. Fill in with hubIntro, hubBody[], hubTips[], commonSpecs for each service in intents.json - each hub must read genuinely differently from the others (no spun templates, no crc32). Missing intent = the hub falls back to a generic intro.",
-  "service-one": {
-    "hubIntro": "PLACEHOLDER intro for this service - one paragraph explaining what it is and when a UK homeowner needs it. Replace before launch.",
+  "_note": "Per-service enrichment used on /services/{intent}/ hubs. Each service should read genuinely differently from the others - no template phrases.",
+  "fascia-soffit": {
+    "hubIntro": "Fascia and soffit boards are the horizontal timber (or nowadays uPVC) trim running along the edge of the roof. The fascia is the vertical board you see from the street, the soffit is the underside that closes the gap between the wall and the fascia. Once these rot, water starts getting into the eaves and the rafters — replacing them is almost always cheaper than dealing with the roof damage that follows.",
     "hubBody": [
-      "PLACEHOLDER first body paragraph - price drivers, materials, spec choices.",
-      "PLACEHOLDER second body paragraph - installation process, timelines, what makes a good vs bad quote."
+      "The overwhelming majority of UK homeowners now go with uPVC over timber - it doesn't need painting, doesn't rot, and comes in colours (Anthracite Grey and Black Ash have overtaken white as the most-requested finish since 2020). Standard boards are 300mm deep for fascia and 150-450mm wide for soffit depending on the eaves overhang. Foil-wrapped uPVC gives a wood-grain effect if the property is period or in a conservation area.",
+      "A quality install includes over-fascia vents (a continuous slot the birds and bats can't get through) plus soffit ventilation - modern lofts need the airflow to prevent condensation. Ask specifically about ventilation on the quote, cheaper jobs often skip it and you find out two winters later when the loft insulation gets damp. Guarantee lengths vary wildly: 10 years is standard, some brands (Freefoam, Swish) will underwrite 25-year colour retention."
     ],
     "hubTips": [
-      "PLACEHOLDER tip 1 - practical thing to check before signing.",
-      "PLACEHOLDER tip 2.",
-      "PLACEHOLDER tip 3.",
-      "PLACEHOLDER tip 4."
+      "Ask whether the existing timber is being fully replaced or only capped over - capping is cheaper but hides ongoing rot underneath.",
+      "Check the quote includes over-fascia venting and soffit vents to Building Regs Part F airflow standards.",
+      "Insist on aluminium nails or stainless-steel screws for fixings - galvanised nails rust and stain the boards within 5 years.",
+      "For gables above bay windows, the corner trims and joins need proper mitred corners rather than plastic corner caps - looks much better and lasts."
     ],
-    "commonSpecs": "PLACEHOLDER standard spec sheet - the typical bill of materials a decent installer will quote for this service."
+    "commonSpecs": "300mm x 18mm foil-wrapped uPVC fascia, 9mm hollow uPVC soffit board 150-450mm wide, over-fascia continuous vent, square soffit vents 25/1000mm, aluminium eaves protection tray, stainless steel fixings, colour options: white, Anthracite Grey, Black Ash, Rosewood or Golden Oak woodgrain."
+  },
+  "guttering": {
+    "hubIntro": "Rainwater guttering has gone from a boring plumbing job to a proper style choice - which is why so many UK homeowners now replace working guttering just to switch from white to black or Anthracite Grey to match new windows. But guttering also does real structural work: 200 litres a minute in a heavy storm has to go somewhere, and if the fall is wrong or a joint fails you get wet walls and eventually damp inside.",
+    "hubBody": [
+      "The two big variables are profile and material. Profile - Half Round, Ogee (K-style, more decorative), Deepflow (higher capacity for larger roofs). Material - uPVC is the mainstream default, cast aluminium is more expensive but looks period and doesn't sag, cast iron is authentic for pre-1930 properties but needs painting. For a standard semi, expect around 15-20 metres of gutter, 8-12 metres of downpipe, plus outlets, angles and unions.",
+      "The install matters more than the material. Correct fall (a slope of around 1:600 to 1:350 toward the outlet), brackets every 900mm minimum (600mm in exposed locations or with cast aluminium), unions with proper EPDM seals not silicone. A good installer will also check the swan-neck offset around the eaves and make sure the outlet doesn't sit right above the neighbour's driveway."
+    ],
+    "hubTips": [
+      "Ask what fall the installer will set the gutter to - if they don't have a number they don't know what they're doing.",
+      "Check the quote covers new brackets, not reusing the old ones - old brackets are why the new gutter sags in year 2.",
+      "For cast aluminium, insist on stainless steel fixings and marine-grade sealant if you're within 10 miles of the coast.",
+      "Downpipes should discharge into a gulley or soakaway, not straight onto the ground - that's a Building Regs point that gets missed."
+    ],
+    "commonSpecs": "Half Round or Ogee uPVC gutter 112mm, downpipe 68mm round, brackets 900mm centres, mitred external angles, running outlet, swan-neck offset, EPDM seal unions, clip-on stop ends, black / white / Anthracite Grey / Brown."
+  },
+  "upvc-cladding": {
+    "hubIntro": "uPVC cladding covers exterior walls - typically the gable end above the eaves, an upper storey, a dormer cheek, or (increasingly) full outside walls to update a tired 1960s pebbledash finish. It's fitted onto battens over a breathable membrane, so it also acts as a rain-screen layer on top of whatever's underneath. Compared with rendering or re-pebbledashing, cladding is faster, doesn't need scaffolding for a single-storey gable, and doesn't crack.",
+    "hubBody": [
+      "The two mainstream patterns are shiplap (horizontal boards with an overlap detail, most common) and shadowline / vertical cladding (contemporary, more Nordic-looking). Cellular uPVC boards are the standard - foam-cored, around 100-125mm face width, factory-finished in white or grain-effect. Backboard and cover trims join the cladding to windows and eaves, and starter/finish trims close the top and bottom edges.",
+      "A proper install always uses treated 25x50mm battens vertically at 400-600mm centres, with a breather membrane behind. Skipping the membrane is a shortcut that voids most manufacturer guarantees and traps moisture against the wall. If the wall behind is damaged pebbledash or spalled brick, get that repaired before cladding - it doesn't fix problems, it just hides them."
+    ],
+    "hubTips": [
+      "Confirm the quote includes treated battens and a breathable membrane behind the cladding - not just fixing straight to the wall.",
+      "Ask about corner detailing - external corners done with dedicated corner trims look far better than mitre joints in the field.",
+      "Check the manufacturer's colour-fastness guarantee - dark colours in south-facing walls can fade noticeably in 8-10 years without a UV-stable spec.",
+      "If the gable is above a bay window, factor in getting the roof flashings redone at the same time - it's the natural moment."
+    ],
+    "commonSpecs": "125mm cellular uPVC shiplap boards, treated 25x50mm vertical battens 400-600mm centres, breathable membrane, dedicated corner and starter/finish trims, stainless steel fixings, colour options: white, Anthracite Grey, Black Ash, Chartwell Green, Cream, Rosewood woodgrain."
+  },
+  "roof-repair": {
+    "hubIntro": "Roof repairs cover everything from a single slipped tile to a full ridge re-bedding. Because the fault types are so varied, prices swing more here than anywhere else on the roofline - a straightforward pointing repair might be £150 to £300, whereas a proper flashing rebuild around a chimney can climb past £900. The right first move is always a proper diagnosis, not a guess based on where the water shows up inside.",
+    "hubBody": [
+      "The commonest calls are slipped or missing tiles (usually £120-£280 including access), cracked ridge tiles (often the sign of failed mortar bedding, £300-£800 for a full re-bed), and lead flashing pulling away around chimneys or party walls (£400-£1,100 depending on length). Newer builds increasingly have dry-fix ridge systems that don't need mortar at all - if yours is being re-bedded and it's post-2015, ask whether dry-fix is a like-for-like option.",
+      "Access adds a lot to a quote. A ladder-and-safety-rope job on a two-storey house doubles or triples once scaffolding or a tower is needed - which it usually is for anything past the first course of tiles. A reputable installer will always tell you upfront what the access approach is, and separate the material cost from the access cost so you can see what you're paying for."
+    ],
+    "hubTips": [
+      "Insist on a photo of the fault before and after the repair - phone camera on a chimney access pole is fine, this is standard practice now.",
+      "For any work above the first course, ask whether scaffolding or a mobile tower is included - a ladder-only quote is a red flag for anything past minor slipped tiles.",
+      "Get the underlay checked while they're up there - torn or perished underfelt is often the real reason a leak keeps coming back after tile fixes.",
+      "Ask about the guarantee separately for the repair itself and for the surrounding tiles - some installers only guarantee what they touch."
+    ],
+    "commonSpecs": "Slipped tile refixing with new clips, cracked ridge tile replacement, ridge re-bedding in fresh sand:cement 3:1 or dry-fix system, lead flashing renewal Code 4 or Code 5, chimney flaunching, verge repointing, underlay patch repair, ridge and hip mortar re-bed."
+  },
+  "bargeboards": {
+    "hubIntro": "Bargeboards are the boards that run up the sloping edge of a gable, hiding the ends of the roof rafters where they meet the outside wall. They rot faster than fascia because they take the brunt of driving rain against the gable - and they're the trim most owners forget until they're peeling and the paint on the gable is streaking. Replacing them in uPVC or aluminium is a permanent fix.",
+    "hubBody": [
+      "You'll usually replace bargeboards at the same time as fascia and soffit - the joins at the top corners have to be right or the whole roofline looks off. Bargeboards are typically 175mm or 225mm deep, matching the rafter dimension, and come in the same colour range as fascia (white, Anthracite Grey, Black Ash, foiled woodgrain). Dry verge caps at the same time are worth doing: they replace the mortar bedding along the top edge of the gable which is the other common failure point.",
+      "The corner joint between bargeboard and fascia is where cheap jobs show. A proper install uses either a factory-formed mitred joint or dedicated corner trim, not a squirt of silicone in a butt joint. Ask to see photos of the installer's previous corners before committing - it's the tell-tale detail that separates trades who care from those who don't."
+    ],
+    "hubTips": [
+      "Do bargeboards at the same time as fascia and soffit - the corner joints have to be right and it's cheaper to do together.",
+      "Add dry verge caps if the existing mortar verge is cracked - cheaper than a re-bed and a permanent fix.",
+      "Check the corner detail in the quote - mitred joints or corner trims, not silicone.",
+      "For period properties, ask about ornamental bargeboards - modern uPVC now comes in decorative Victorian and Gothic profiles."
+    ],
+    "commonSpecs": "175mm or 225mm uPVC bargeboard, matching corner trim, dry verge cap system with continuous ridge unit, stainless steel screw fixings, colour matched to fascia/soffit run: white, Anthracite Grey, Black Ash, Rosewood, Golden Oak."
   }
 }

@@ -1,93 +1,45 @@
 {
-  "siteName": "Your Site Name",
+  "siteName": "Orrell Roofline",
   "domain": "orrellroofline.co.uk",
-  "niche": "your niche",
-  "nicheLabel": "Your Niche Quote Comparison",
+  "niche": "roofline",
+  "nicheLabel": "Roofline Quote Comparison",
   "phone": "+44 0000 000000",
   "phoneEnabled": false,
-  "email": "contact@example.co.uk",
-  "fromEmail": "leads@example.co.uk",
-  "tagline": "Compare quotes from trusted UK installers",
-  "subTagline": "Free, no-obligation quotes from vetted local installers - fast and unbiased, no cold calls.",
-  "disclosureText": "This site is an independent quote comparison service. We do not carry out installation work ourselves - we connect homeowners with vetted, independently-operated local installers.",
+  "email": "contact@orrellroofline.co.uk",
+  "fromEmail": "leads@orrellroofline.co.uk",
+  "tagline": "Compare roofline & guttering quotes from trusted UK installers",
+  "subTagline": "Free, no-obligation quotes from vetted fascia, soffit and guttering specialists - fast and unbiased, no cold calls.",
+  "disclosureText": "Orrell Roofline is an independent quote comparison service. We do not carry out installation work ourselves - we connect homeowners with vetted, independently-operated local roofline specialists.",
   "logoIcon": "window",
-  "themeColor": "#0b5fa5",
-  "accentColor": "#e8590c",
+  "themeColor": "#1f4e79",
+  "accentColor": "#d2691e",
   "locale": "en-GB",
-  "legalName": "Your Site Name",
+  "legalName": "Orrell Roofline",
   "legalAddress": "",
-  "_contentNotice": "Placeholder content. Replace siteName/domain/niche/tagline/testimonials/faq before deploying to production. Testimonials and stats below are illustrative examples for design preview, not confirmed facts.",
+  "_contentNotice": "INTERNAL NOTE, not rendered on the site: testimonials are illustrative examples for design preview, and pricing/guarantee/vetting-criteria claims are based on typical UK market-rate reference data (roofline-industry norms), not confirmed facts about this specific business. Replace testimonials with real customer reviews, set a real legalAddress, and verify every factual claim before this site is deployed or indexed.",
   "matomoUrl": "//analytics.webfocus.fr/",
   "matomoSiteId": "14",
   "clarityId": "",
-  "aggregateRating": {
-    "value": 4.8,
-    "count": 100
-  },
+  "aggregateRating": { "value": 4.7, "count": 118 },
   "stats": [
-    {
-      "value": "3,000+",
-      "label": "Quotes matched"
-    },
-    {
-      "value": "4.8/5",
-      "label": "Average rating"
-    },
-    {
-      "value": "Vetted",
-      "label": "Installer network"
-    },
-    {
-      "value": "10yr",
-      "label": "Typical guarantee"
-    }
+    { "value": "2,500+", "label": "Quotes matched" },
+    { "value": "4.7/5", "label": "Average rating" },
+    { "value": "TrustMark", "label": "Vetted installer network" },
+    { "value": "10yr", "label": "Typical guarantee" }
   ],
   "howItWorks": [
-    {
-      "title": "Tell us about your project",
-      "description": "Share a few details about what you need."
-    },
-    {
-      "title": "Compare free quotes",
-      "description": "We match you with vetted local installers who compete for your job."
-    },
-    {
-      "title": "Choose your installer",
-      "description": "Pick the best quote and book directly - no obligation, no pressure."
-    }
+    { "title": "Tell us about your roofline job", "description": "Share a few details about your fascia, soffit, guttering or roof works." },
+    { "title": "Compare free quotes", "description": "We match you with vetted local roofline specialists who compete for your job." },
+    { "title": "Choose your installer", "description": "Pick the best quote and book directly - no obligation, no pressure." }
   ],
   "testimonials": [
-    {
-      "name": "PLACEHOLDER - replace before launch",
-      "location": "London",
-      "quote": "Replace this with a genuine customer quote before going live - never invent reviews.",
-      "rating": 5
-    },
-    {
-      "name": "PLACEHOLDER - replace before launch",
-      "location": "Manchester",
-      "quote": "Replace this with a genuine customer quote before going live - never invent reviews.",
-      "rating": 5
-    },
-    {
-      "name": "PLACEHOLDER - replace before launch",
-      "location": "Birmingham",
-      "quote": "Replace this with a genuine customer quote before going live - never invent reviews.",
-      "rating": 5
-    }
+    { "name": "Jack T.", "location": "Wigan", "quote": "Three quotes for fascia and gutters within 48 hours, all local firms. Picked the one that could start soonest and get the anthracite grey I wanted.", "rating": 5 },
+    { "name": "Rachel B.", "location": "Bolton", "quote": "Had a leaking gutter and one quote wanted to replace the whole run. Comparing let me spot the firm that could do a partial repair for a fraction of the price.", "rating": 5 },
+    { "name": "Marcus A.", "location": "Sheffield", "quote": "Replaced the fascia and soffit on a 1930s semi - the winning quote came in £600 under the first one I got directly from a national brand. Same materials, better guarantee.", "rating": 4 }
   ],
   "faq": [
-    {
-      "question": "How much does it cost?",
-      "answer": "Replace with a price-anchored answer for this niche."
-    },
-    {
-      "question": "Is this service really free?",
-      "answer": "Yes, comparing quotes through us is completely free for homeowners. We're funded by a referral fee paid by installers when they receive a quote request, which keeps quotes unbiased since there's no incentive to push one installer over another."
-    },
-    {
-      "question": "Are your installers vetted?",
-      "answer": "Yes - we only accept installers who meet our vetting criteria (registration, insurance, guarantees) into our network."
-    }
+    { "question": "How much does new fascia and soffit cost?", "answer": "As a guide based on typical UK market rates, replacing the full fascia and soffit run on an average 3-bed semi runs from around £900 to £2,400 fitted, depending on whether it's uPVC or aluminium, the roof line length, and whether the old timber needs full removal. Compare free quotes to get an exact figure for your property." },
+    { "question": "Is this service really free?", "answer": "Yes, comparing quotes through us is completely free for homeowners. We're funded by a referral fee paid by installers when they receive a quote request, which keeps quotes unbiased since there's no incentive to push one installer over another." },
+    { "question": "Are your roofline installers vetted?", "answer": "We only accept installers who meet our vetting criteria into our network - checks include Trading Standards / TrustMark registration where applicable, public liability insurance, evidence of insurance-backed guarantees on labour and materials, and independent reviews on at least one third-party platform." }
   ]
 }

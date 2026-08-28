@@ -1,29 +1,47 @@
 [
   {
-    "slug": "service-one",
-    "label": "Service One",
-    "shortLabel": "Service One",
-    "searchIntent": "PLACEHOLDER - describe what the searcher wants for this service, e.g. 'someone wants new casement windows and is comparing quotes'",
-    "priceFrom": "From £350",
-    "basePriceRange": [350, 900],
-    "icon": "🔨"
-  },
-  {
-    "slug": "service-two",
-    "label": "Service Two",
-    "shortLabel": "Service Two",
-    "searchIntent": "PLACEHOLDER - describe what the searcher wants for this service",
-    "priceFrom": "From £600",
-    "basePriceRange": [600, 1200],
+    "slug": "fascia-soffit",
+    "label": "Fascia & Soffit",
+    "shortLabel": "Fascia & Soffit",
+    "searchIntent": "someone wants to replace or install new uPVC fascia and soffit boards along the roofline",
+    "priceFrom": "From £900",
+    "basePriceRange": [900, 2400],
     "icon": "🏠"
   },
   {
-    "slug": "service-three",
-    "label": "Service Three",
-    "shortLabel": "Service Three",
-    "searchIntent": "PLACEHOLDER - describe what the searcher wants for this service",
-    "priceFrom": "From £89",
-    "basePriceRange": [89, 250],
+    "slug": "guttering",
+    "label": "Guttering",
+    "shortLabel": "Guttering",
+    "searchIntent": "someone wants new or replacement rainwater gutters, downpipes and fittings",
+    "priceFrom": "From £320",
+    "basePriceRange": [320, 950],
+    "icon": "💧"
+  },
+  {
+    "slug": "upvc-cladding",
+    "label": "uPVC Cladding",
+    "shortLabel": "Cladding",
+    "searchIntent": "someone wants uPVC cladding fitted to gable ends, walls or dormers",
+    "priceFrom": "From £1,400",
+    "basePriceRange": [1400, 4200],
+    "icon": "🧱"
+  },
+  {
+    "slug": "roof-repair",
+    "label": "Roof Repairs",
+    "shortLabel": "Roof Repairs",
+    "searchIntent": "someone has a broken tile, missing slate, leak or flashing issue and needs a repair",
+    "priceFrom": "From £150",
+    "basePriceRange": [150, 1200],
     "icon": "🔧"
+  },
+  {
+    "slug": "bargeboards",
+    "label": "Bargeboards & Verges",
+    "shortLabel": "Bargeboards",
+    "searchIntent": "someone wants new bargeboards, verge trims or dry verge caps fitted to the gable ends",
+    "priceFrom": "From £250",
+    "basePriceRange": [250, 700],
+    "icon": "📐"
   }
 ]
