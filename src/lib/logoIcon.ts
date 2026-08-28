@@ -8,6 +8,9 @@ export const ICONS: Record<string, string> = {
   house: '<path d="M5 17 18 5l13 12"/><path d="M8 15v15h20V15"/><line x1="15" y1="30" x2="15" y2="21"/><line x1="21" y1="30" x2="21" y2="21"/>',
   shield: '<path d="M18 4 30 8v9c0 8.5-5.2 13.7-12 16-6.8-2.3-12-7.5-12-16V8z"/>',
   door: '<rect x="9" y="4" width="18" height="28" rx="2"/><circle cx="20" cy="19" r="1.4" fill="currentColor"/>',
+  // Roofline: house profile with visible roof edge, fascia line, gutter run
+  // and downpipe - the four elements the trade actually sells.
+  roofline: '<path d="M4 17 18 5l14 12"/><line x1="4" y1="20" x2="32" y2="20"/><path d="M4 23 Q 4 26 7 26 L 29 26 Q 32 26 32 23"/><line x1="10" y1="26" x2="10" y2="31"/>',
 };
 
 export function getInitials(name: string): string {

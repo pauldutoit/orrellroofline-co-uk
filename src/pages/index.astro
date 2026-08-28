@@ -94,6 +94,30 @@ const faqSchema = {
     </section>
   )}
 
+  {(siteConfig as any).reassurance?.length ? (
+    <section class="section reassurance-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Why homeowners choose us</h2>
+          <p>What we commit to, and why it's different from the usual comparison sites.</p>
+        </div>
+        <div class="reassurance-grid">
+          {(siteConfig as any).reassurance.map((r: {title: string; text: string}) => (
+            <div class="reassurance-card">
+              <span class="reassurance-check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+              </span>
+              <div>
+                <h3>{r.title}</h3>
+                <p>{r.text}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  ) : null}
+
   <section class="section">
     <div class="container">
       <div class="section-title">

@@ -355,6 +355,26 @@ ul { padding-left: 1.25rem; }
 }
 .postcodes-note { margin: 0; font-size: 0.85rem; color: var(--color-muted); }
 
+/* Reassurance grid */
+.reassurance-section { background: var(--color-surface-alt); }
+.reassurance-grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); max-width: 960px; margin: 0 auto; }
+.reassurance-card {
+  display: grid; grid-template-columns: auto 1fr; gap: 1rem;
+  padding: 1.25rem 1.35rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+}
+.reassurance-card h3 { font-size: 1rem; margin: 0 0 0.35rem; }
+.reassurance-card p { margin: 0; font-size: 0.9rem; color: var(--color-body); }
+.reassurance-check {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 2.25rem; height: 2.25rem; border-radius: 50%;
+  background: var(--color-primary-tint); color: var(--color-primary-dark);
+  flex-shrink: 0;
+}
+.reassurance-check svg { width: 1.15rem; height: 1.15rem; }
+
 /* Price guide (dark section) */
 .price-guide { background: var(--color-ink); color: #fff; padding: 3.5rem 0; }
 .price-guide h2 { color: #fff; }
