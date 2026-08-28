@@ -18,13 +18,13 @@
     "icon": "💧"
   },
   {
-    "slug": "upvc-cladding",
-    "label": "uPVC Cladding",
-    "shortLabel": "Cladding",
-    "searchIntent": "someone wants uPVC cladding fitted to gable ends, walls or dormers",
-    "priceFrom": "From £1,400",
-    "basePriceRange": [1400, 4200],
-    "icon": "🧱"
+    "slug": "roof-replacement",
+    "label": "Roof Replacement",
+    "shortLabel": "Roof Replacement",
+    "searchIntent": "someone wants a full roof re-cover or replacement - new tiles, felt and battens across the whole roof",
+    "priceFrom": "From £3,500",
+    "basePriceRange": [3500, 9000],
+    "icon": "🏘️"
   },
   {
     "slug": "roof-repair",
@@ -36,12 +36,12 @@
     "icon": "🔧"
   },
   {
-    "slug": "bargeboards",
-    "label": "Bargeboards & Verges",
-    "shortLabel": "Bargeboards",
-    "searchIntent": "someone wants new bargeboards, verge trims or dry verge caps fitted to the gable ends",
-    "priceFrom": "From £250",
-    "basePriceRange": [250, 700],
-    "icon": "📐"
+    "slug": "chimney-repair",
+    "label": "Chimney Repair",
+    "shortLabel": "Chimney Repair",
+    "searchIntent": "someone needs chimney repointing, flaunching, flashing renewal, cap fitting or a full stack rebuild",
+    "priceFrom": "From £180",
+    "basePriceRange": [180, 1400],
+    "icon": "🏭"
   }
 ]

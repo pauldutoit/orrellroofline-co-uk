@@ -28,19 +28,19 @@
     ],
     "commonSpecs": "Half Round or Ogee uPVC gutter 112mm, downpipe 68mm round, brackets 900mm centres, mitred external angles, running outlet, swan-neck offset, EPDM seal unions, clip-on stop ends, black / white / Anthracite Grey / Brown."
   },
-  "upvc-cladding": {
-    "hubIntro": "uPVC cladding covers exterior walls - typically the gable end above the eaves, an upper storey, a dormer cheek, or (increasingly) full outside walls to update a tired 1960s pebbledash finish. It's fitted onto battens over a breathable membrane, so it also acts as a rain-screen layer on top of whatever's underneath. Compared with rendering or re-pebbledashing, cladding is faster, doesn't need scaffolding for a single-storey gable, and doesn't crack.",
+  "roof-replacement": {
+    "hubIntro": "A full roof replacement means stripping the existing covering back to the rafters, checking the timbers, laying new breathable felt and battens, and re-tiling with new concrete tiles, clay tiles or natural slates. If your roof is over 40 years old, has multiple leaks in different spots, or the timber battens have rotted, replacement is usually cheaper long-term than patching year after year. Expect it to take 3-7 working days for an average UK semi.",
     "hubBody": [
-      "The two mainstream patterns are shiplap (horizontal boards with an overlap detail, most common) and shadowline / vertical cladding (contemporary, more Nordic-looking). Cellular uPVC boards are the standard - foam-cored, around 100-125mm face width, factory-finished in white or grain-effect. Backboard and cover trims join the cladding to windows and eaves, and starter/finish trims close the top and bottom edges.",
-      "A proper install always uses treated 25x50mm battens vertically at 400-600mm centres, with a breather membrane behind. Skipping the membrane is a shortcut that voids most manufacturer guarantees and traps moisture against the wall. If the wall behind is damaged pebbledash or spalled brick, get that repaired before cladding - it doesn't fix problems, it just hides them."
+      "The material choice drives the biggest slice of the price. Concrete interlocking tiles are the workhorse (around £45-£75 per m² fitted), clay plain tiles look far better on period property but cost more (£75-£130 per m²), and natural Welsh or Spanish slate is the top end (£120-£200 per m² and up). Underneath, the two hidden but critical items are breathable Type 1F felt (skip cheap non-breathable felt - it causes condensation in modern lofts) and pressure-treated battens graded to BS 5534.",
+      "A proper quote itemises everything: strip cost, waste disposal (skips), scaffold hire (typically 2-3 weeks), tiles and materials, new lead flashings to chimneys and abutments, new ridge system (dry-fix is now standard), new eaves and verge protection, and finally re-plastering any internal water damage. If a quote is one lump sum with no breakdown, you can't compare it fairly - always ask for the itemised version."
     ],
     "hubTips": [
-      "Confirm the quote includes treated battens and a breathable membrane behind the cladding - not just fixing straight to the wall.",
-      "Ask about corner detailing - external corners done with dedicated corner trims look far better than mitre joints in the field.",
-      "Check the manufacturer's colour-fastness guarantee - dark colours in south-facing walls can fade noticeably in 8-10 years without a UV-stable spec.",
-      "If the gable is above a bay window, factor in getting the roof flashings redone at the same time - it's the natural moment."
+      "Insist on dry-fix ridge and dry-fix verge as standard - mortar-bedded ridges fail within 15 years and cost as much as a repair job to redo.",
+      "Get the loft insulation topped up while the roof is off - the roofer can lay it from above without pulling up ceilings, cheapest window to do it.",
+      "Check the quote includes new lead flashings to any chimney, abutment or dormer - reusing old flashings is the #1 source of post-replacement leaks.",
+      "Ask about the warranty: manufacturer-backed guarantees (Marley, Redland, BMI) plus installer workmanship guarantees are worth 10x an installer-only guarantee."
     ],
-    "commonSpecs": "125mm cellular uPVC shiplap boards, treated 25x50mm vertical battens 400-600mm centres, breathable membrane, dedicated corner and starter/finish trims, stainless steel fixings, colour options: white, Anthracite Grey, Black Ash, Chartwell Green, Cream, Rosewood woodgrain."
+    "commonSpecs": "Full strip and re-cover, breathable Type 1F underlay, pressure-treated BS 5534 battens 25x50mm, new interlocking concrete or clay plain tiles, dry-fix ridge with continuous vent, dry-fix verge, new lead flashings Code 4/5, mortar bedding to abutments only, scaffold and waste disposal included."
   },
   "roof-repair": {
     "hubIntro": "Roof repairs cover everything from a single slipped tile to a full ridge re-bedding. Because the fault types are so varied, prices swing more here than anywhere else on the roofline - a straightforward pointing repair might be £150 to £300, whereas a proper flashing rebuild around a chimney can climb past £900. The right first move is always a proper diagnosis, not a guess based on where the water shows up inside.",
@@ -56,18 +56,18 @@
     ],
     "commonSpecs": "Slipped tile refixing with new clips, cracked ridge tile replacement, ridge re-bedding in fresh sand:cement 3:1 or dry-fix system, lead flashing renewal Code 4 or Code 5, chimney flaunching, verge repointing, underlay patch repair, ridge and hip mortar re-bed."
   },
-  "bargeboards": {
-    "hubIntro": "Bargeboards are the boards that run up the sloping edge of a gable, hiding the ends of the roof rafters where they meet the outside wall. They rot faster than fascia because they take the brunt of driving rain against the gable - and they're the trim most owners forget until they're peeling and the paint on the gable is streaking. Replacing them in uPVC or aluminium is a permanent fix.",
+  "chimney-repair": {
+    "hubIntro": "Chimney work spans a huge range of jobs - from a £180 flaunching repair to a £3,000 full stack rebuild. The commonest calls are re-pointing eroded mortar, renewing the lead flashing where the stack meets the roof, replacing a cracked flaunching (the mortar bed at the top holding the pot in place), fitting a rain cap or bird guard, or a full rebuild when the brickwork above the roof line has failed. Chimney work is height access work - a decent quote always separates access cost from the actual repair.",
     "hubBody": [
-      "You'll usually replace bargeboards at the same time as fascia and soffit - the joins at the top corners have to be right or the whole roofline looks off. Bargeboards are typically 175mm or 225mm deep, matching the rafter dimension, and come in the same colour range as fascia (white, Anthracite Grey, Black Ash, foiled woodgrain). Dry verge caps at the same time are worth doing: they replace the mortar bedding along the top edge of the gable which is the other common failure point.",
-      "The corner joint between bargeboard and fascia is where cheap jobs show. A proper install uses either a factory-formed mitred joint or dedicated corner trim, not a squirt of silicone in a butt joint. Ask to see photos of the installer's previous corners before committing - it's the tell-tale detail that separates trades who care from those who don't."
+      "Diagnosis matters more here than anywhere else on the roof. A leak that shows up in the chimney breast can come from four different failure points: perished lead flashing (usually the culprit), cracked flaunching letting water into the stack, failed mortar joints on the brickwork above the roof, or a broken pot. A good installer will always send photos before quoting - insist on it, because 'the whole chimney needs rebuilding' quotes from someone who hasn't been up there yet are the classic upsell.",
+      "For a mid-range job (renew lead flashings + repoint the exposed brickwork + new flaunching + rain cap), expect £600-£1,200 including scaffold. A full rebuild above roof level is £1,500-£3,000 depending on stack height and access. Below that, a Code 4 lead flashing renewal alone is around £400-£700 and often solves the leak on its own. Anything involving the flue liner is a specialist HETAS job, not general roof work."
     ],
     "hubTips": [
-      "Do bargeboards at the same time as fascia and soffit - the corner joints have to be right and it's cheaper to do together.",
-      "Add dry verge caps if the existing mortar verge is cracked - cheaper than a re-bed and a permanent fix.",
-      "Check the corner detail in the quote - mitred joints or corner trims, not silicone.",
-      "For period properties, ask about ornamental bargeboards - modern uPVC now comes in decorative Victorian and Gothic profiles."
+      "Get photos of the fault before quoting - a scoped-out diagnosis beats a lump-sum 'rebuild it all' quote every time.",
+      "Ask what lead code the flashings will be replaced in - Code 4 is standard for domestic, Code 5 for exposed positions. Anything less is a corner cut.",
+      "Insist on scaffold or a tower for anything past a flaunching repair - a roof ladder job on a chimney is a fall risk and a corner-cutter's sign.",
+      "If the stack is disused, ask about a full removal to below roof level with a re-tile over - often cheaper than an ongoing repair cycle."
     ],
-    "commonSpecs": "175mm or 225mm uPVC bargeboard, matching corner trim, dry verge cap system with continuous ridge unit, stainless steel screw fixings, colour matched to fascia/soffit run: white, Anthracite Grey, Black Ash, Rosewood, Golden Oak."
+    "commonSpecs": "Code 4 or Code 5 lead flashing renewal (soakers, apron, back gutter, side flashings), lime or NHL 3.5 mortar repointing for pre-1919 property or S:C 1:3 for post-1919, new sand:cement flaunching, new pot bedding, C-cowl or bird guard rain cap, scaffold or aluminium tower access, HETAS specialist for any flue works."
   }
 }
