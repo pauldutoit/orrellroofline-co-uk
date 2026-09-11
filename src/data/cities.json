@@ -35,7 +35,7 @@
     "county": "Greater Manchester",
     "region": "North West England",
     "pf": 0.9,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "salford",
       "stockport",
@@ -50,7 +50,7 @@
     "county": "West Yorkshire",
     "region": "Yorkshire and the Humber",
     "pf": 0.88,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "bradford",
       "wakefield",
@@ -80,7 +80,7 @@
     "county": "Merseyside",
     "region": "North West England",
     "pf": 0.88,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "southport",
       "manchester",
@@ -110,7 +110,7 @@
     "county": "South Yorkshire",
     "region": "Yorkshire and the Humber",
     "pf": 0.87,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "rotherham",
       "barnsley",
@@ -170,7 +170,7 @@
     "county": "West Yorkshire",
     "region": "Yorkshire and the Humber",
     "pf": 0.86,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "leeds",
       "keighley",
@@ -215,7 +215,7 @@
     "county": "Staffordshire",
     "region": "West Midlands",
     "pf": 0.86,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "stafford",
       "crewe",
@@ -695,7 +695,7 @@
     "county": "Lancashire",
     "region": "North West England",
     "pf": 0.84,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "blackburn",
       "burnley",
@@ -710,7 +710,7 @@
     "county": "Cheshire",
     "region": "North West England",
     "pf": 0.91,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "wigan",
       "manchester",
@@ -800,7 +800,7 @@
     "county": "Lancashire",
     "region": "North West England",
     "pf": 0.85,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "burnley",
       "bury",
@@ -815,7 +815,7 @@
     "county": "West Yorkshire",
     "region": "Yorkshire and the Humber",
     "pf": 0.87,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "leeds",
       "bradford",
@@ -980,7 +980,7 @@
     "county": "Greater Manchester",
     "region": "North West England",
     "pf": 0.86,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "bolton",
       "manchester",
@@ -995,7 +995,7 @@
     "county": "Greater Manchester",
     "region": "North West England",
     "pf": 0.86,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "manchester",
       "wigan",
@@ -1010,7 +1010,7 @@
     "county": "Greater Manchester",
     "region": "North West England",
     "pf": 0.87,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "manchester",
       "bolton",
@@ -1025,7 +1025,7 @@
     "county": "Greater Manchester",
     "region": "North West England",
     "pf": 0.89,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "manchester",
       "bolton",
@@ -1040,7 +1040,7 @@
     "county": "Greater Manchester",
     "region": "North West England",
     "pf": 0.91,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "manchester",
       "liverpool",
@@ -1055,7 +1055,7 @@
     "county": "Greater Manchester",
     "region": "North West England",
     "pf": 0.85,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "manchester",
       "bury",
@@ -1070,7 +1070,7 @@
     "county": "Greater Manchester",
     "region": "North West England",
     "pf": 0.85,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "manchester",
       "rochdale",
@@ -1085,7 +1085,7 @@
     "county": "Lancashire",
     "region": "North West England",
     "pf": 0.83,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "blackburn",
       "manchester",
@@ -1160,7 +1160,7 @@
     "county": "South Yorkshire",
     "region": "Yorkshire and the Humber",
     "pf": 0.85,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "sheffield",
       "rotherham",
@@ -1220,7 +1220,7 @@
     "county": "Derbyshire",
     "region": "East Midlands",
     "pf": 0.86,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "sheffield",
       "derby",
@@ -1445,7 +1445,7 @@
     "county": "Wrexham",
     "region": "Wales",
     "pf": 0.85,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "chester",
       "swansea",
@@ -1460,7 +1460,7 @@
     "county": "Cheshire",
     "region": "North West England",
     "pf": 0.94,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "wrexham",
       "crewe",
@@ -1475,7 +1475,7 @@
     "county": "Cheshire",
     "region": "North West England",
     "pf": 0.88,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "chester",
       "stoke-on-trent",
@@ -1610,7 +1610,7 @@
     "county": "West Yorkshire",
     "region": "Yorkshire and the Humber",
     "pf": 0.84,
-    "indexable": false,
+    "indexable": true,
     "nearby": [
       "bradford",
       "leeds",
@@ -2877,7 +2877,7 @@
       "warrington",
       "wigan"
     ],
-    "indexable": false
+    "indexable": true
   },
   {
     "slug": "lancaster",
@@ -2892,7 +2892,7 @@
       "burnley",
       "warrington"
     ],
-    "indexable": false
+    "indexable": true
   },
   {
     "slug": "southport",
@@ -2907,7 +2907,7 @@
       "warrington",
       "wigan"
     ],
-    "indexable": false
+    "indexable": true
   },
   {
     "slug": "carlisle",
@@ -2922,7 +2922,7 @@
       "durham",
       "blackpool"
     ],
-    "indexable": false
+    "indexable": true
   },
   {
     "slug": "barrow-in-furness",
@@ -2937,7 +2937,7 @@
       "carlisle",
       "blackburn"
     ],
-    "indexable": false
+    "indexable": true
   },
   {
     "slug": "halifax",
@@ -2952,7 +2952,7 @@
       "leeds",
       "wakefield"
     ],
-    "indexable": false
+    "indexable": true
   },
   {
     "slug": "bridlington",
