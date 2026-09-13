@@ -1,4 +1,5 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import QuoteFunnel from '../components/QuoteFunnel.astro';
 import siteConfig from '../data/site.config.json';
@@ -7,6 +8,9 @@ import cities from '../data/cities.json';
 import { REASSURANCE_ICONS } from '../lib/reassuranceIcons';
 
 const telHref = `tel:${siteConfig.phone.replace(/\s+/g, '')}`;
+const featuredPosts = (await getCollection('blog'))
+  .sort((a, b) => new Date(b.data.publishedDate).getTime() - new Date(a.data.publishedDate).getTime())
+  .slice(0, 3);
 
 const faqSchema = {
   '@context': 'https://schema.org',
@@ -198,6 +202,23 @@ const faqSchema = {
             </details>
           ))}
         </div>
+      </div>
+    </section>
+  )}
+
+  {featuredPosts.length > 0 && (
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-title"><h2>Roofline guides &amp; advice</h2></div>
+        <div class="blog-grid">
+          {featuredPosts.map((post) => (
+            <a class="blog-card" href={`/blog/${post.id}/`}>
+              <h2>{post.data.title}</h2>
+              <p>{post.data.excerpt}</p>
+            </a>
+          ))}
+        </div>
+        <p style="text-align:center;margin-top:1.5rem"><a href="/blog/" style="font-weight:600;color:var(--color-primary-dark)">See all guides &rarr;</a></p>
       </div>
     </section>
   )}
