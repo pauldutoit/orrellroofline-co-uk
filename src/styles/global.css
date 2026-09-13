@@ -423,6 +423,31 @@ ul { padding-left: 1.25rem; }
 .faq-item summary { font-weight: 700; cursor: pointer; color: var(--color-ink); }
 .faq-item p { margin: 0.75rem 0 0; color: var(--color-muted); }
 
+/* Blog */
+.blog-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+.blog-card { display: block; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-sm); padding: 1.5rem; transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s; }
+.blog-card:hover { border-color: var(--color-primary); box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06); transform: translateY(-1px); }
+.blog-card h2 { font-size: 1.1rem; margin: 0 0 0.5rem; color: var(--color-ink); }
+.blog-card p { font-size: 0.92rem; color: var(--color-muted); margin: 0 0 0.75rem; line-height: 1.6; }
+.blog-card-meta { font-size: 0.8rem; color: var(--color-muted); }
+@media (max-width: 720px) { .blog-grid { grid-template-columns: 1fr; } }
+
+.article-body { max-width: 720px; margin: 0 auto; padding-bottom: 2rem; }
+.article-body h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); margin: 0 0 0.5rem; }
+.article-meta { font-size: 0.82rem; color: var(--color-muted); margin: 0 0 1.75rem; }
+.article-body h2 { font-size: 1.25rem; margin: 2rem 0 0.85rem; }
+.article-body h3 { font-size: 1.05rem; margin: 1.25rem 0 0.5rem; }
+.article-body p, .article-body li { font-size: 0.98rem; line-height: 1.75; color: var(--color-body); }
+.article-body ul, .article-body ol { padding-left: 1.25rem; margin: 0 0 1rem; }
+.article-body li { margin-bottom: 0.5rem; }
+.article-body a { color: var(--color-primary-dark); font-weight: 600; }
+.article-body table { width: 100%; border-collapse: collapse; margin: 0 0 1.25rem; font-size: 0.92rem; }
+.article-body th, .article-body td { text-align: left; padding: 0.6rem 0.75rem; border-bottom: 1px solid var(--color-border); }
+.article-body th { color: var(--color-muted); font-weight: 700; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.03em; }
+.article-cta { background: var(--color-primary-tint); border: 1px solid var(--color-border); border-radius: var(--radius-sm); padding: 1.75rem; text-align: center; margin-top: 2.5rem; }
+.article-cta h3 { margin: 0 0 0.4rem; }
+.article-cta p { margin: 0 0 1rem; color: var(--color-muted); }
+
 /* Footer disclosure (independent comparison-service model) */
 .site-footer .footer-disclosure { max-width: 640px; margin: 0 auto 1rem; font-size: 0.8rem; color: var(--color-muted); font-style: italic; }
 

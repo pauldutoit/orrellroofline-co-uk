@@ -17,4 +17,19 @@ const cityContent = defineCollection({
   }),
 });
 
-export const collections = { cityContent };
+const blog = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
+  schema: z.object({
+    title: z.string(),
+    metaTitle: z.string(),
+    metaDescription: z.string(),
+    excerpt: z.string(),
+    publishedDate: z.string(),
+    updatedDate: z.string().optional(),
+    readingMinutes: z.number().optional(),
+    relatedCities: z.array(z.string()).default([]),
+    faqs: z.array(z.object({ question: z.string(), answer: z.string() })).default([]),
+  }),
+});
+
+export const collections = { cityContent, blog };

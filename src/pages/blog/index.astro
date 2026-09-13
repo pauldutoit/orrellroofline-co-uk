@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import siteConfig from '../../data/site.config.json';
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => new Date(b.data.publishedDate).getTime() - new Date(a.data.publishedDate).getTime()
+);
+---
+
+<BaseLayout
+  title={`Roofline Guides & Advice | ${siteConfig.siteName}`}
+  description="Cost guides, planning rules and maintenance advice for fascia, soffit, guttering and roofing - written for North West England specifically."
+>
+  <div class="container" style="padding-top: 1.5rem;">
+    <nav class="breadcrumb"><a href="/">Home</a> <span>&rsaquo;</span> <span>Guides &amp; Advice</span></nav>
+    <h1>Roofline Guides &amp; Advice</h1>
+    <p class="lede">Cost guides, planning rules and maintenance advice for fascia, soffit, guttering and roofing &mdash; written for North West England specifically, not generic UK boilerplate.</p>
+  </div>
+
+  <section class="section">
+    <div class="container blog-grid">
+      {posts.map((post) => (
+        <a class="blog-card" href={`/blog/${post.id}/`}>
+          <h2>{post.data.title}</h2>
+          <p>{post.data.excerpt}</p>
+          {post.data.readingMinutes && <span class="blog-card-meta">{post.data.readingMinutes} min read</span>}
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
