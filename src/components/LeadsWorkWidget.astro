@@ -1,0 +1,111 @@
+---
+import siteConfig from '../data/site.config.json';
+
+interface Props {
+  /** Render a smaller, tighter version of the widget (e.g. for a hero card). */
+  compact?: boolean;
+}
+
+const { compact = false } = Astro.props;
+
+const confId = (siteConfig as any).leadsWorkConfId ?? '';
+const accent = (siteConfig as any).accentColor ?? '#b8722e';
+const primary = (siteConfig as any).themeColor ?? '#2a3641';
+---
+
+{confId ? (
+  <div class:list={['leads-work-widget', { 'is-compact': compact }]}>
+    <script is:inline set:html={`var id_conf = '${confId}'; var font_color_title = '${primary}'; var bgcolor = '${accent}'; var icon_color = '${accent}';`} />
+    <script is:inline src="//widget.leads.work/js/prefilled-form-load.js"></script>
+  </div>
+) : null}
+
+<style is:global define:vars={{ accent, primary }}>
+  /* Wrapper + surface */
+  .leads-work-widget {
+    padding: 1.25rem 1.5rem;
+    min-height: 320px;
+    background: #fff;
+    border: 1px solid rgba(42, 54, 65, 0.12);
+    border-radius: 10px;
+    box-shadow: 0 8px 24px -12px rgba(42, 54, 65, 0.2);
+  }
+  .leads-work-widget #f-content { max-width: 100%; }
+
+  /* Compact variant - smaller footprint for e.g. the homepage hero card */
+  .leads-work-widget.is-compact {
+    padding: 0.9rem 1rem;
+    min-height: 220px;
+    font-size: 0.85em;
+  }
+
+  /* Form title (e.g. "Gutter Replacement") - brand primary instead of widget default.
+     Also set as the widget's own font_color_title config var (see the inline script above) -
+     that's the primary fix; this is a specificity-hardened CSS fallback. */
+  .leads-work-widget #f-content .form_title,
+  #f-content .leads-work-widget .form_title,
+  .leads-work-widget .form_title {
+    color: var(--primary) !important;
+  }
+
+  /* Loader: recolor the spinner ring from bright yellow to brand copper */
+  .leads-work-widget #f-loader { border-left-color: var(--accent) !important; }
+
+  /* Progress bar filled area (widget default #f8b323 - solid orange) */
+  .leads-work-widget [style*="#f8b323"],
+  .leads-work-widget [style*="background:#f8b323"],
+  .leads-work-widget [style*="background-color:#f8b323"],
+  .leads-work-widget [style*="background: #f8b323"],
+  .leads-work-widget [style*="background-color: #f8b323"] {
+    background-color: var(--accent) !important;
+    background: var(--accent) !important;
+  }
+
+  /* Step progress bar + active step background + info tooltip icon. The widget loads its own
+     theme stylesheet (theme1.css) with !important rules on selectors like
+     "#f-content #Qtop-section .QprogressContent .Qprogressbar .Qprogress" (2 IDs) - these
+     selectors replicate that exact chain with .leads-work-widget prepended so ours wins on
+     specificity (same ID count, more classes) rather than losing a same-specificity tie on
+     load order. */
+  .leads-work-widget #f-content #Qtop-section .QprogressContent .Qprogressbar .Qprogress {
+    background-color: var(--accent) !important;
+    background: var(--accent) !important;
+  }
+  .leads-work-widget #f-content #Qtop-section .QprogressContent .QstepsContent .QstepsBg-on {
+    background-color: var(--accent) !important;
+    background: var(--accent) !important;
+    border-color: var(--accent) !important;
+  }
+  .leads-work-widget #f-content .qwf-info {
+    background-color: var(--accent) !important;
+    background: var(--accent) !important;
+  }
+
+  /* Form controls: focus ring in brand primary */
+  .leads-work-widget input[type="text"]:focus,
+  .leads-work-widget input[type="email"]:focus,
+  .leads-work-widget input[type="tel"]:focus,
+  .leads-work-widget input[type="number"]:focus,
+  .leads-work-widget textarea:focus,
+  .leads-work-widget select:focus {
+    outline: 2px solid var(--primary) !important;
+    outline-offset: 1px !important;
+    border-color: var(--primary) !important;
+  }
+
+  /* Primary submit buttons */
+  .leads-work-widget button,
+  .leads-work-widget input[type="submit"],
+  .leads-work-widget input[type="button"] {
+    background-color: var(--accent) !important;
+    border-color: var(--accent) !important;
+    color: #fff !important;
+    font-weight: 700;
+  }
+  .leads-work-widget button:hover,
+  .leads-work-widget input[type="submit"]:hover,
+  .leads-work-widget input[type="button"]:hover {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+  }
+</style>

@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import QuoteFunnel from '../components/QuoteFunnel.astro';
+import LeadsWorkWidget from '../components/LeadsWorkWidget.astro';
 import siteConfig from '../data/site.config.json';
 import intents from '../data/intents.json';
 import cities from '../data/cities.json';
@@ -46,7 +46,7 @@ const faqSchema = {
         </ul>
       </div>
       <div class="hero-form-card">
-        <QuoteFunnel idSuffix="hero" />
+        <LeadsWorkWidget compact />
       </div>
     </div>
   </section>
