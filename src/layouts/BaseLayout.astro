@@ -105,7 +105,9 @@ const primaryIntentSlug = intents[0]?.slug ?? 'casement-windows';
            quote_submit_error) + les clics tel:/mailto:. Objectif Matomo « Lead » = événement
            d'action "Lead submitted". Doit s'exécuter AVANT le chargement du widget (d'où le <head>). */
         (function () {
-          var _paq = (window._paq = window._paq || []);
+          window._paq = window._paq || [];
+          // Toujours passer par window._paq : matomo.js remplace le tableau par son propre objet au chargement.
+          function track(c, a, n) { window._paq.push(['trackEvent', c, a, n]); }
           var dl = (window.dataLayer = window.dataLayer || []);
           var names = { form_view: 'Form view', quote_start: 'Quote started', category_select: 'Category selected', quote_submit_error: 'Submit error' };
           function context() {
@@ -117,12 +119,12 @@ const primaryIntentSlug = intents[0]?.slug ?? 'casement-windows';
             if (!e || typeof e !== 'object' || !e.event) return;
             var label = context();
             if (e.event === 'quote_submit') {
-              _paq.push(['trackEvent', 'Lead form', e.lead_outcome === 'duplicate' ? 'Lead duplicate' : 'Lead submitted', label]);
+              track('Lead form', e.lead_outcome === 'duplicate' ? 'Lead duplicate' : 'Lead submitted', label);
             } else if (e.event === 'widget_event') {
-              _paq.push(['trackEvent', 'Lead form step', String(e.widget_action || e.widget_category || 'step'), label]);
+              track('Lead form step', String(e.widget_action || e.widget_category || 'step'), label);
             } else if (names[e.event]) {
               if (e.event === 'quote_submit_error' && e.error_fields) label += ' | ' + e.error_fields;
-              _paq.push(['trackEvent', 'Lead form', names[e.event], label]);
+              track('Lead form', names[e.event], label);
             }
           }
           for (var i = 0; i < dl.length; i++) handle(dl[i]);
@@ -133,7 +135,7 @@ const primaryIntentSlug = intents[0]?.slug ?? 'casement-windows';
           };
           document.addEventListener('click', function (ev) {
             var a = ev.target && ev.target.closest ? ev.target.closest('a[href^="tel:"], a[href^="mailto:"]') : null;
-            if (a) _paq.push(['trackEvent', 'Contact', a.getAttribute('href').indexOf('tel:') === 0 ? 'Phone click' : 'Email click', location.pathname]);
+            if (a) track('Contact', a.getAttribute('href').indexOf('tel:') === 0 ? 'Phone click' : 'Email click', location.pathname);
           }, true);
         })();
       </script>
