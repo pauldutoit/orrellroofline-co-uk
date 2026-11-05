@@ -6,7 +6,8 @@ excerpt: "Chimneys take more weather punishment than any other part of the roofl
 publishedDate: "2026-09-14"
 updatedDate: "2026-09-14"
 readingMinutes: 4
-relatedCities: ["manchester", "bolton", "sheffield"]
+relatedCities: ["leeds", "halifax", "bradford", "huddersfield", "manchester", "bolton", "sheffield"]
+relatedIntent: "chimney-repair"
 faqs:
   - question: "How much does chimney repointing cost?"
     answer: "A straightforward repoint typically runs £500-£1,200, mostly depending on access; a full rebuild of a badly deteriorated stack usually costs £1,500-£3,500."

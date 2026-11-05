@@ -1,10 +1,10 @@
 ---
 title: "Do You Need Listed Building Consent to Replace Guttering or Fascias?"
-metaTitle: "Listed Building Consent for Guttering & Fascias (England)"
-metaDescription: "How listed building consent works for roofline repairs in England, what Historic England's guidance actually says, and how to avoid enforcement action."
+metaTitle: "Do Gutters & Fascias Need Listed Building Consent?"
+metaDescription: "Like-for-like cast iron usually doesn't need consent; switching to uPVC usually does. Historic England's guidance and enforcement risks explained."
 excerpt: "Listed building consent catches out more roofline jobs than people expect - here's what Historic England's own guidance actually says about gutters and fascias."
 publishedDate: "2026-09-13"
-updatedDate: "2026-09-13"
+updatedDate: "2026-11-05"
 readingMinutes: 6
 relatedCities: ["chester", "lancaster", "wigan", "preston"]
 faqs:
@@ -15,6 +15,8 @@ faqs:
   - question: "What happens if I do unauthorised work on a listed building?"
     answer: "The council can require the work to be undone and reinstated in the original material and style, at your expense, on top of any legal costs - unauthorised work on a listed building is a criminal offence."
 ---
+
+**Short answer:** repairing or replacing gutters, downpipes and fascias like-for-like (same material, same profile) usually doesn't need listed building consent. Changing the material, for example cast iron to uPVC, or altering the look of the roofline usually does. If in doubt, ask your local planning authority before any work starts, because unauthorised work on a listed building is a criminal offence.
 
 Historic England's own advice is direct on this point: a rainwater system that works and doesn't leak is important to the conservation of a listed building, and clearing gutters of leaves is straightforward maintenance. Consent only becomes an issue once you're replacing or materially altering the rainwater goods - which is exactly the situation most roofline quotes fall into.
 

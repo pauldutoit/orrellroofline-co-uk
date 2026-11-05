@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props as any;
 const { Content } = await render(post);
-const primaryIntentSlug = intents[0]?.slug ?? 'fascia-soffit';
+const primaryIntentSlug = post.data.relatedIntent ?? intents[0]?.slug ?? 'fascia-soffit';
 
 const relatedCityMeta = (post.data.relatedCities as string[])
   .map((slug) => cities.find((c: any) => c.slug === slug))

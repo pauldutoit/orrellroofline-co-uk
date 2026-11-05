@@ -28,6 +28,7 @@ const blog = defineCollection({
     updatedDate: z.string().optional(),
     readingMinutes: z.number().optional(),
     relatedCities: z.array(z.string()).default([]),
+    relatedIntent: z.string().optional(),
     faqs: z.array(z.object({ question: z.string(), answer: z.string() })).default([]),
   }),
 });
